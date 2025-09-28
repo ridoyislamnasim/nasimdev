@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa'
 import { motion } from 'framer-motion'
-import { fadeInUp, fadeIn, slideInLeft, slideInRight } from '@/utils/animations'
+import { fadeInUp, slideInLeft, slideInRight } from '@/utils/animations'
 
 interface FormData {
   name: string;
@@ -75,7 +75,7 @@ export default function Contact() {
           
           <motion.div 
             className="space-y-4"
-            variants={fadeIn}
+            variants={fadeInUp}
             initial="initial"
             animate="animate"
           >
