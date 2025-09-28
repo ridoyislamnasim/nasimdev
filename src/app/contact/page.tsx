@@ -132,7 +132,7 @@ export default function Contact() {
           <motion.form 
             onSubmit={handleSubmit} 
             className="space-y-6"
-            variants={fadeIn}
+            variants={fadeInUp}
             initial="initial"
             animate="animate"
           >
